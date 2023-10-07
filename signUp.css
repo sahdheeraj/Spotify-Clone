@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    min-height: 100vh;
+    position: relative;
+    width: 35vw;
+    background-color: white;
+    font-size: large;
+}
+
+.img{
+    position: absolute;
+    margin-left: 105px;
+    height: 55px;
+    width: 55px;
+
+}
+
+.icons{
+     font-size: large;
+}
+
+ .btn{
+    text-align: center;
+ }
+
+.btn1{
+    border-radius: 22px;
+    height: 50px;
+    width: 450px;
+    color: whitesmoke;
+    background-color: rgb(24, 90, 175);
+    border: none;
+    font-weight:bold;
+    margin-left: 25px;
+ }
+
+ .btn2{
+   
+    border-radius: 22px;
+    height: 50px;
+    width: 450px;
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+    font-weight:bold;
+    margin-left: 25px;
+ }
+
+ .btn1:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+ }
+
+ .btn2:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+ }
+
+ .fBox{
+    height: 35px;
+    min-width: 550px;
+    border-radius: 6px;
+    border: 1px solid black;
+ }
+
+ .txt{
+    text-align:justify;
+    font-size: small;
+ }
+
+.text{
+    font-size: small;
+}
+
+ a{
+    color: green;
+ }
+
+.btn3{
+    border-radius: 22px;
+    height: 50px;
+    width: 150px;
+    color: black;
+    background-color: rgb(30, 235, 30);
+    border: none;
+    font-weight:bold;
+}
+
+.btn3:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+ }
